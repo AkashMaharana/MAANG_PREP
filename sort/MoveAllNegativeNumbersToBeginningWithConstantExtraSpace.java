@@ -1,4 +1,4 @@
-public class MoveAllNegativeNumberToBeginningWithConstantExtraSpace {
+public class MoveAllNegativeNumbersToBeginningWithConstantExtraSpace {
   public static void main(String[] args) {
         int[] input = {-2, 0, 9, -1, 3, 0, 100, -7, 10, 23, -99};
         moveAllNegativeNumberToBeginningPartitionApproach(input);
