@@ -1,5 +1,5 @@
 import java.util.*;
-public class LongestSubstrWithKUniqueCharacter{
+public class LongestSubstringWithKUniqueCharacter{
 
      public static void main(String[] args)
     {
