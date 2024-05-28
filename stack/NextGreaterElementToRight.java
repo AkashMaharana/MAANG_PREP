@@ -1,5 +1,5 @@
 import java.util.*;
-public class NextGreaterElement{
+public class NextGreaterElementToRight {
 
      public static void main(String[] args) {
         List<Integer> arr = Arrays.asList(11, 13, 21, 3);
