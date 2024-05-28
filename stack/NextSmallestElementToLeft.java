@@ -14,7 +14,7 @@ public class NextSmallestElementToLeft {
      private static List<Integer> nextSmallestElement(List<Integer> list) {
         List<Integer> result = new ArrayList<>();
         Stack<Integer> stack = new Stack<>();
-        for(int i=0;i <= list.size() -1 ; i++) {
+        for(int i=0; i<= list.size() - 1; i++) {
             while(!stack.isEmpty() && stack.peek() <= list.get(i)) {
                 stack.pop();
             }
