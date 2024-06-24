@@ -1,5 +1,5 @@
 import java.util.*;
-public class DetectCycleInAGraphBFS {
+public class DetectCycleInUndirectedGraphBFS {
 
     public static void main(String[] args) {
         List<List<Integer>> adj = new ArrayList<>();
