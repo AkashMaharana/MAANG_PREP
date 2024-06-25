@@ -25,7 +25,7 @@ public class FindOrderOfCourseCompletion {
             adjList.add(new ArrayList<>());
         }
         for(int i=0;i<prerequisites.length;i++) {
-            adjList.get(prerequisites[i][0]).add(prerequisites[i][1]);
+            adjList.get(prerequisites[i][1]).add(prerequisites[i][0]);
         }
         int[] inDegreeArray = new int[numCourses];
         for(int i=0;i<numCourses;i++) {
